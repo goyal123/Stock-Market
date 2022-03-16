@@ -11,9 +11,9 @@ def sent_mail():
     body=nse.nsemarket()+bse.bsemarket()
     
     #The mail addresses and password
-    sender_address = 'akhilcsebtech@gmail.com'
-    sender_pass = 'crimebranchdelhi'
-    receiver_address = 'akhilg642@gmail.com'
+    sender_address = ''  #Enter sender mail address here
+    sender_pass = ''   #Enter password here
+    receiver_address = '' #sender receiver address here
 
     #Setup the MIME
     message = MIMEMultipart()
